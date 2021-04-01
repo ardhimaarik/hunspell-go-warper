@@ -5,7 +5,7 @@
 ## Overview
 Here's my attempt at combining the implementation to wrapping hunspell C++ library with Golang CGO.
 
-## the system that i used
+## The system that i use
 - Ubuntu 18.04.5 LTS
 - Intel core I5 8th Gen
 
