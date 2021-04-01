@@ -5,7 +5,7 @@
 ## Overview
 Here's my attempt at combining the implementation to wrapping hunspell C++ library with Golang CGO.
 
-## tehe system that i used
+## the system that i used
 - Ubuntu 18.04.5 LTS
 - Intel core I5 8th Gen
 
@@ -15,8 +15,8 @@ Here's my attempt at combining the implementation to wrapping hunspell C++ libra
 - hunspell [`requirement`](http://hunspell.github.io/)
 - hunspell `dictionary` [#1](https://github.com/hunspell/hunspell#dictionaries) [#2](https://github.com/client9/gospell#where-can-i-get-english-dictionaries)
 
-## Preparing the requirement
-- clone hunspell [repository](https://github.com/hunspell/hunspell) OR [download released version](https://github.com/hunspell/hunspell/files/2573619/hunspell-1.7.0.tar.gz) (i used [v1.7.0](https://github.com/hunspell/hunspell/releases/tag/v1.7.0)) 
+## Prepare the requirement
+- clone hunspell [repository](https://github.com/hunspell/hunspell) OR [download released version](https://github.com/hunspell/hunspell/files/2573619/hunspell-1.7.0.tar.gz) ([v1.7.0](https://github.com/hunspell/hunspell/releases/tag/v1.7.0)) 
 ```
 $ git clone https://github.com/hunspell/hunspell
 # Cloning...
@@ -30,7 +30,7 @@ OR
 $ wget https://github.com/hunspell/hunspell/files/2573619/hunspell-1.7.0.tar.gz
 # Extract file
 $ tar -xvzf hunspell-1.7.0.tar.gz
-# cd hunspell-1.7.0
+$ cd hunspell-1.7.0
 # Compile it
 ```
 
@@ -51,7 +51,7 @@ $ cp <path-to-root-library>/hunspell-1.7.0/src/hunspell/hunspell.h <path-to-root
 $ cp <path-to-root-library>/hunspell-1.7.0/src/hunspell/hunvisapi.h <path-to-root-repository>/hunspell-go-warper/hunspell/include/hunvisapi.h
 ```
 
-## usage 
+## Usage 
 - write the program 
 ```
 package main
